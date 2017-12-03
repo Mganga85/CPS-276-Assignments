@@ -1,0 +1,20 @@
+table,tr,td,th{
+    border: solid black 5px;
+    border-collapse:collapse;
+    background-color:white;
+    width:50%;
+   
+    
+    
+}
+input{
+    width:75%;
+    margin:auto;
+    
+    
+}
+
+body{
+    background-color:bisque;
+}
+

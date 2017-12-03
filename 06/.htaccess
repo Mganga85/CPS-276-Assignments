@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/m/g/mganga/public_html/CPS276/06/.htpasswd
+require valid-user
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/~mganga/CPS276/06/main.php
+RewriteRule (.*) /~mganga/CPS276/06/main.php/$1 [L,QSA]
+
+

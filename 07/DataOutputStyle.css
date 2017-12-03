@@ -1,0 +1,62 @@
+table.file,tr.file,td.file,th.file{
+    border: solid black 5px;
+    border-collapse:collapse;
+    background-color:white;
+    width:30%;
+    
+    
+}
+
+
+td.money{
+     border: solid black 2px;
+    border-collapse:collapse;
+    background-color:white;
+    color:red;
+    
+    
+}
+
+
+body{
+    background-color:teal;
+}
+
+tr.out,th.out,td.out{
+     border: solid black 2px;
+    border-collapse:collapse;
+    background-color:lightgrey;
+    width:260px;
+    color:blue;
+    
+   
+}
+
+
+div.outputTable{
+    border: solid black 5px;
+    border-collapse:collapse;
+    background-color:grey;
+   margin-bottom:20px;
+   margin-right:15px;
+   float:right;
+   
+   
+}
+div.fixed
+{
+    position:fixed;
+    top:90px;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+div.fixed2
+{
+    position:fixed;
+    top:60px;
+    left:30px;
+    width:100%;
+    
+   
+}

@@ -1,0 +1,76 @@
+/*
+Cascading style sheet for this homework assignment. 
+Matthew Ganga
+CPS 276
+Project 5. MYSQL/PHP/HTML
+*/
+
+
+tr,td{
+    border:5px solid black;
+    border-collapse:collapse;
+    color:green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+table{
+    border:5px solid black;
+    border-collapse:collapse;
+    width:75%;
+    float:right;
+    margin-bottom: 100px;
+    background-color: white;
+
+
+}
+
+th{
+    border:5px solid black;
+    border-collapse:collapse;
+    text-decoration: underline;
+    width:5%;
+    text-align:left;
+    color:red;
+}
+
+body{
+    background-color:teal;
+}
+hr{
+    color:white;
+}
+h1{
+    color:red;
+    text-align:center;
+    text-decoration: underline;
+    font-family:cursive,veranda; 
+}
+th.moves{
+  
+    color:red;
+}
+h2{
+    color:white;
+    text-align:center;
+    text-decoration: underline;
+    margin-left: 230px;
+   
+}
+p{
+    color:black;
+    
+    text-decoration: underline;
+}
+
+.fixed
+{
+    position:fixed;
+    top:20px;
+    left:30px;
+    width:100%;
+    margin:0 auto;
+}
+
+
+
